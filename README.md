@@ -18,3 +18,6 @@ Example Scenario: You have 2 view controllers, you want to pass data from the se
 1. Navigate to the storyboard in question, in our case Main.storyboard, head to the EditFullnameController, control-drag from the view controller icon to the exit icon in the header view on the view controller scene. At this point the unwind @IBAction you created in the MainViewController will pop up, select the unwind segue. 
 1. Finally select in unwind segue in the document outline and navigate to the attribues inspector and name the segue identifier. 
 
+Creating a programmatically initiated unwind segue.
+![connecting unwind segue in storyboard](https://developer.apple.com/library/archive/technotes/tn2298/Art/tn2298_SceneToExitIcon.png)
+
