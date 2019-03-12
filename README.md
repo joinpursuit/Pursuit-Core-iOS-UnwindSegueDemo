@@ -6,7 +6,7 @@ Unwind segues give you a way to "unwind" the navigation stack back through push,
 
 When you create an unwind segue in Interface Builder you do not specify a destination view controller. The unwind segue determines which view controller in your navigation hierarchy to unwind to when it is triggered at runtime. This process is customizable and additional points of customization are provided for container view controllers to participate in the unwind process. 
 
-## Reading 
+## Readings 
 [Apple Technical Note - Using Unwind Segues](https://developer.apple.com/library/archive/technotes/tn2298/_index.html)  
 
 ## Steps involved in creating an Unwind Segue 
